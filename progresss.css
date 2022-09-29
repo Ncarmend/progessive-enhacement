@@ -1,0 +1,130 @@
+.header{
+    background-color: yellow;
+    font-style: italic;
+    text-align: center;
+  }
+  body {
+      max-width: 90%;
+      margin:6% 20% 6% 20%;
+      background: -webkit-linear-gradient(-9deg, rgb(22, 135, 237), rgb(76, 20, 90));
+      background: linear-gradient(-9deg, rgb(22, 135, 237), rgb(76, 20, 90));
+      /*background-image: url("https://media.gettyimages.com/photos/fall-leaves-picture-id157283712?s=612x612");
+      background-repeat: no-repeat;
+      background-position: right bottom;
+      background-size: cover;
+      */
+    }
+    .automn{
+      width: 300px;
+      border-radius: 150px;
+      position: right bottom;
+    }
+    .quote{
+  
+      font-size: 160%;
+      font-weight: bold;
+    }
+    p{
+      font-family: serif;
+      letter-spacing: 2px;
+      color:rgb(56, 53, 53);
+    }
+    p.para1{
+      font-weight: bold;
+      font-size: xx-large;
+    }
+    a{
+      text-decoration: none;
+    }
+    a:link {color: black;}
+    a:visited {color: gray;}
+    a:hover {color: red;}
+    a:active {color: red;}
+     /*.bad  {
+      background-image: url('') ;
+      background-repeat: no-repeat;
+      padding-right:20px;
+      margin: auto;
+      margin-bottom: 5xp;
+    }
+    .chat{
+      background-image: url('') ;
+      background-repeat: no-repeat;
+      padding: auto;
+      margin: auto;
+    }*/
+    ul li{
+      list-style-type: none;
+    }
+    ul li img{
+      margin-right: 10px;
+      margin-bottom: 1px;
+    }
+    .divflex{
+      display:flex;
+    }
+    .divaflex > div{
+      display: flex;
+      justify-content:space-around;
+    }
+    .flex1{
+     padding: 20px;
+   
+    }
+    /*.flex-container > div {
+      background-color: #f1f1f1;
+      margin: 10px;
+      padding: 20px;
+      font-size: 30px;}*/
+    .citation{
+      background-color:rgb(136, 131, 131);
+      width: 50%;
+      font-size: 160%;
+      font-style: italic;
+      /*margin-left: auto;
+      margin-right: auto;
+      margin-top: 80px;
+      margin-bottom: 80px;*/
+      margin: 10% 20% 10% 20%;
+      padding: 30px;
+      border: 3px solid goldenrod;
+      /*border-left: 3px;*/
+      border-color: firebrick;
+    }
+    p.dialogue{
+      border:3px solid rgb(6, 205, 6);
+      border-style: solide;
+      border-width: 3px;
+      border-color:green;
+    }
+    p .vilageois{
+      border-left: 6px solid rgb(129, 7, 243);
+    }
+    p .fermier{
+      border-left: 6px solid green;
+    }
+    /*p :last-child{
+      background-color: brown;
+      border-left: 5px solid black;
+    }
+    */
+    span .bon{
+      background-color: greenyellow;
+      color: rgb(112, 165, 42);
+      text-transform : capitalize;
+    }
+    span .mal{
+      background-color: red;
+      color:brown;
+      text-transform : capitalize;}
+    table, th, td{
+      border: 2px dotted black;
+      /*background-color: aquamarine;*/
+      border-collapse: collapse;
+      width: 600px;
+    }
+  
+    tr:nth-child(even) { 
+      background-color: Lightgrey; 
+      } 
+    
